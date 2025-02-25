@@ -1,0 +1,61 @@
+.page {
+  font-family: Inter;
+  color: white;
+  background: #2a2c2f;
+  position: relative;
+  width: 1280px;
+  height: 2008px;
+}
+
+.logo {
+  width: 254.8373565673828px;
+  height: 68.94309997558594px;
+  margin-top: 34px;
+  margin-left: 513px;
+  width: 720px;
+  height: 72px;
+  margin-left: 280px;
+  margin-right: 280px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 984px;
+  height: 983px;
+  margin-top: 194px;
+  margin-left: 148px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.header__title {
+  width: 720px;
+  height: 200px;
+  margin: 0 280px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.header__subtitle {
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 720px;
+  height: 72px;
+  top: 426px;
+  left: 280px;
+}
+
+.header__image {
+  width: 984;
+  height: 615;
+  top: 562px;
+  left: 148px;
+}
