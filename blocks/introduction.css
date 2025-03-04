@@ -35,3 +35,49 @@
   font-size: 16px;
   line-height: 2.1;
 }
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .introduction {
+    max-width: 288px;
+    margin: 64px auto;
+  }
+
+  .introduction__title {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .introduction__quote {
+    line-height: 1.1;
+  }
+
+  .introduction__quote-author {
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .introduction {
+    max-width: 720px;
+    margin: 90px auto 88px;
+  }
+
+  .introduction__title {
+    max-width: 707px;
+    font-size: 45px;
+  }
+
+  .introduction__quote {
+    max-width: 720px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .introduction__quote-author {
+    margin-top: 26px;
+  }
+
+  .introduction__text {
+    max-width: 722px;
+  }
+}

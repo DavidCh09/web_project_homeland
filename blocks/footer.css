@@ -13,3 +13,9 @@
   text-align: right;
   margin-top: 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .footer__text {
+    max-height: 14px;
+  }
+}
