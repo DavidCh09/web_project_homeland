@@ -60,7 +60,7 @@
   }
 }
 
-@media screen and (min-width: 544px) and (max-width: 1024px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   .header__logo {
     max-width: 254px;
     max-height: 66px;
@@ -75,8 +75,8 @@
 
   .header__subtitle {
     max-width: 720px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1;
-    margin: 25px auto 30px;
+    margin: 25px 16px 30px;
   }
 }
